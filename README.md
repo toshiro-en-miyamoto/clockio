@@ -1,1 +1,22 @@
-# clockio
+# clockio - Clock In/Out
+- node_js
+  - setup Express
+    - `$ npm init`
+    - `$ npm install express`
+  - setup test environment
+    - Web Development with Node and Express 2nd Edition, Ethan Brown, Chapter 5. Quality Assurance
+    - jest
+      - `$ npm install --save-dev jest`
+      - the `scripts` property of `package.json` should have `"test": "jest"`
+      - create `...test.js` files in `__test__` directory
+      - `jest.fn()` creates a generic mock function 
+      - `$ npm test` to execute tests
+      - `$ npm test -- --coverage` provides code coverage analysis
+  - postgres
+    - reference: `https://node-postgres.com/`
+    - `$ npm install pg`
+  - mongodb
+  - redis
+  - kafka
+- node_ts
+- spring_boot

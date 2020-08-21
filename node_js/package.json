@@ -1,0 +1,31 @@
+{
+  "name": "clockio",
+  "version": "1.0.0",
+  "description": "Clock In/Out",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshiro-en-miyamoto/clockio.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "express"
+  ],
+  "author": "Toshiro Miyamoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshiro-en-miyamoto/clockio/issues"
+  },
+  "homepage": "https://github.com/toshiro-en-miyamoto/clockio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0"
+  }
+}
